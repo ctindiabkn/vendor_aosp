@@ -139,12 +139,15 @@ PRODUCT_PACKAGES += \
 include vendor/aosp/config/branding.mk
 
 # OTA
-include vendor/aosp/config/ota.mk
+#include vendor/aosp/config/ota.mk
 
 # GApps
 include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
+
+# Themes
+#include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
